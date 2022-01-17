@@ -1,0 +1,13 @@
+Question2
+a)
+SELECT * FROM Orders
+WHERE ShipperID = 1;
+final answer: there are 54 orders shipped by Speedy Express
+
+b)
+SELECT * FROM OrderDetails WHERE Quantity = ( SELECT MAX(Quantity) FROM OrderDetails);
+SELECT EmployeeID FROM Orders WHERE OrderID = 10398;
+SELECT LastName FROM Employees WHERE EmployeeID = 2;
+final answer: the last name of the employee with the most orders is Fuller
+
+c)
